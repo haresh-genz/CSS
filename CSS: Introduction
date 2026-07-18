@@ -1,0 +1,21 @@
+# CSS Introduction Quick Sheet
+
+* **Definition**: CSS stands for **Cascading Style Sheets**.
+* **Purpose**: Handles the presentation, design, visual layout, and formatting of a webpage.
+* **Separation of Concerns**: HTML builds the **structure** (bones); CSS builds the **style** (skin/clothes).
+
+## Essential Syntax
+CSS works by selecting an HTML element and applying style properties to it.
+
+```css
+/* Selector { Property: Value; } */
+p {
+  color: blue;
+  font-size: 16px;
+}
+```
+
+## 3 Ways to Add CSS to HTML
+1. **Inline**: Written directly inside the HTML tag using the `style` attribute.
+2. **Internal**: Written inside a `<style>` tag located within the HTML `<head>` section.
+3. **External**: Written in a separate `.css` file and linked in the HTML `<head>` using a `<link>` tag (Best practice).
