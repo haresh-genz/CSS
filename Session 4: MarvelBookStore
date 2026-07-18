@@ -1,0 +1,106 @@
+Marvel Book Store:
+
+* -- -- -- -- ---HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="marvel.css">
+  <title>Marvel Book Store</title>
+</head>
+
+<body>
+
+  <h1 style="color:rgb(255, 0, 0); font-family:tahoma; font-weight: bold;">Marvel Book Store</h1>
+
+  <div class="container">
+    <div class="product-card">
+      <img src="https://media.mycomicshop.com/n_iv/600/4881064.jpg" style="width:100%">
+      <h2 style="color:blue;">Avengers</h2>
+      <p>Avengers 4th Edition</p>
+      <h3>Rs. 599</h3>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+    <div class="product-card" id="card-2">
+      <img src="https://m.media-amazon.com/images/I/71fOEpw8M8L._AC_UF1000,1000_QL80_.jpg" style="width:100%">
+      <h2 style="color:rgb(245, 78, 0);">Spider Man 2</h2>
+      <p>Spider Man 2 Special Edition</p>
+      <h3>Rs. 399</h3>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUX8Od7-ur3H1oFPoVi3oO7810XeoFyOqilQ&s"
+        style="width:100%">
+      <h2 style="color:rgb(13, 226, 30);">Iron Man</h2>
+      <p>Iron Man 1 Complete Edition</p>
+      <h3>Rs. 2599</h3>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+    <div class="product-card" style="background-color: brown;">
+      <img src="https://m.media-amazon.com/images/I/71fOEpw8M8L._AC_UF1000,1000_QL80_.jpg" style="width:100%">
+      <h2 style="color:rgb(245, 78, 0);">Spider Man 2</h2>
+      <p>Spider Man 2 Special Edition</p>
+      <h3>Rs. 399</h3>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71fOEpw8M8L._AC_UF1000,1000_QL80_.jpg" style="width:100%">
+      <h2 style="color:rgb(245, 78, 0);">Spider Man 2</h2>
+      <p>Spider Man 2 Special Edition</p>
+      <h3>Rs. 399</h3>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71fOEpw8M8L._AC_UF1000,1000_QL80_.jpg" style="width:100%">
+      <h2 style="color:rgb(245, 78, 0);">Spider Man 2</h2>
+      <p>Spider Man 2 Special Edition</p>
+      <h3>Rs. 399</h3>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71fOEpw8M8L._AC_UF1000,1000_QL80_.jpg" style="width:100%">
+      <h2 style="color:rgb(245, 78, 0);">Spider Man 2</h2>
+      <p>Spider Man 2 Special Edition</p>
+      <h3>Rs. 399</h3>
+      <button class="addtocart">Add to Cart</button>
+    </div>
+  </div>
+</body>
+
+</html>
+
+*- --- -- --- -CSS:
+
+.product-card {
+  width: 250px;
+  padding: 20px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 50px auto;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border-radius: 25px;
+}
+
+.product-card:hover {
+  border: 4px solid rgb(7, 235, 224);
+}
+
+.addtocart {
+  color: rgb(7, 214, 186);
+  background: rgb(49, 48, 53);
+  height: 100%;
+  width: 100%;
+  font-family: monospace;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#card-2 {
+  background-color: rgb(216, 21, 200);
+}
+
+
