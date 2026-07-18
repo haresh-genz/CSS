@@ -1,0 +1,38 @@
+Box Model:
+
+# CSS Box Model Quick Sheet
+
+* **Concept**: Every HTML element is treated as a rectangular box.
+* **Purpose**: Determines the sizing, spacing, and layout alignment of elements on a page.
+
+## The 4 Core Layers (Inside to Outside)
+1. **Content**: The actual text, images, or media inside the element.
+2. **Padding**: Transparent space *inside* the border, surrounding the content.
+3. **Border**: The line wrapped around the padding and content.
+4. **Margin**: Transparent space *outside* the border, separating the element from others.
+
+## Visual Layout Reference
+```text
+┌───────────────────────────────────────────┐
+│                 MARGIN                    │
+│   ┌───────────────────────────────────┐   │
+│   │             BORDER                │   │
+│   │   ┌───────────────────────────┐   │   │
+│   │   │         PADDING           │   │   │
+│   │   │   ┌───────────────────┐   │   │   │
+│   │   │   │      CONTENT      │   │   │   │
+│   │   │   └───────────────────┘   │   │   │
+│   │   └───────────────────────────┘   │   │
+│   └───────────────────────────────────┘   │
+└───────────────────────────────────────────┘
+```
+
+## Quick Code Example
+```css
+div {
+  width: 300px;     /* Content width */
+  padding: 20px;    /* Space inside border */
+  border: 5px solid black; 
+  margin: 15px;     /* Space outside border */
+}
+```
