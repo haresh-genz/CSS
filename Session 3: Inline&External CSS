@@ -1,0 +1,16 @@
+# Inline CSS vs External CSS
+
+## 1. Inline CSS
+* **Where it goes**: Written directly inside the HTML element using the `style` attribute.
+* **Scope**: Affects **only that single specific tag**.
+* **Best for**: Quick testing, micro-fixes, or one-off changes.
+
+```html
+<p style="color: blue; font-size: 16px;">This is inline styled text.</p>
+```
+
+## 2. External CSS
+* **Where it goes**: Written in a completely separate file with a `.css` extension.
+* **How it connects**: Linked inside the HTML `<head>` section using a `<link>` tag.
+* **Scope**: Affects **multiple webpages** across the entire website at once.
+* **Best for**: Real-world projects (keeps code clean, reusable, and easy to maintain).
